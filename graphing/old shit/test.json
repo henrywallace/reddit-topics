@@ -1,0 +1,22 @@
+{
+  "nodes":[
+    {"name": "A","size":1,"index":0},
+    {"name": "B","size":2,"index":1},
+    {"name": "C","size":1,"index":2},
+    {"name": "D","size":3,"index":3}
+  ],
+  "links":[
+    {"source":0,"target":1,"probability":0.6},
+    {"source":0,"target":2,"probability":0.2},
+    {"source":0,"target":3,"probability":0.2},
+    {"source":1,"target":0,"probability":0.05},
+    {"source":1,"target":2,"probability":0.05},
+    {"source":1,"target":3,"probability":0.9},
+    {"source":2,"target":0,"probability":0.6},
+    {"source":2,"target":1,"probability":0.3},
+    {"source":2,"target":3,"probability":0.1},
+    {"source":3,"target":0,"probability":0.5},
+    {"source":3,"target":1,"probability":0.25},
+    {"source":3,"target":2,"probability":0.25}
+  ]
+}
